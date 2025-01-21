@@ -6,3 +6,75 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shared style */
+.display-flex{
+  display: flex;
+}
+
+
+/* header styles */
+
+
+
+
+/* navbar styles */
+.navbar {
+  justify-content: space-evenly;
+}
+
+.navitem{
+  list-style: none;
+  margin-right: 32px;
+  
+}
+.navlinks {
+  
+}
+.navlink{
+  text-decoration: none;
+  
+  
+
+}
+/* navlink styles */
+
+.navlink1{
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: rgba(254, 163, 1, 1);
+
+}
+.navlink2{
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #01ACFD;
+  
+}
+.navlink3{
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #05D4DF;
+}
+.navlink4{
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #5D58EF;
+}
+
+.nav-img{
+  height: 4rem;
+  width: 4rem;
+
+}
+.name{
+  font-weight: 700;
+}
+.btn1{
+  padding: 10px 60px;
+  background-color: #FEA301;
+  border-radius: 10px;
+  color: white;
+  border-style: none;
+  font-weight: 600;
+  
+}
