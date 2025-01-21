@@ -20,6 +20,7 @@
 /* navbar styles */
 .navbar {
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .navitem{
@@ -61,9 +62,16 @@
   color: #5D58EF;
 }
 
+.name{
+  margin-top: 17px;
+  margin-bottom: 15px;
+}
+
 .nav-img{
   height: 4rem;
   width: 4rem;
+  margin-right: 11px;
+  opacity: 100%;
 
 }
 .name{
@@ -76,5 +84,39 @@
   color: white;
   border-style: none;
   font-weight: 600;
-  
+
+}
+
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+
+/* banner styles */
+
+.banner{
+  margin: 0 140px;
+  align-items: center;
+}
+
+.empower{
+  color: #FEA301;
+}
+.vision{
+  color: #01ACFD;
+}
+.btn2{
+  padding: 10px 60px;
+  background-color: black;
+  border-radius: 12px;
+  color: white;
+  border-style: none;
+  font-weight: 700;
+}
+
+.hero{
+  width: 468px;
+  height: 575px;
 }
